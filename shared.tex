@@ -1,0 +1,89 @@
+% Shared style 
+\usepackage[ngerman]{babel}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage{ifthen}
+
+\definecolor{MintMain}{HTML}{2E8B7F}
+\definecolor{MintDark}{HTML}{1F5F59}
+\definecolor{MintSoft}{HTML}{A9D8D0}
+\definecolor{SlateText}{HTML}{364340}
+\definecolor{SlateMuted}{HTML}{5F6D69}
+\definecolor{AccentSoft}{HTML}{A88F7A}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=MintDark,
+  linkcolor=MintDark,
+  citecolor=MintDark,
+  pdftitle={},
+  pdfauthor={}
+}
+
+\urlstyle{same}
+\setstretch{1.04}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4.5pt}
+\setlist[itemize]{
+  leftmargin=1.35em,
+  itemsep=0.22em,
+  topsep=0.35em,
+  parsep=0em,
+  partopsep=0em
+}
+
+\titleformat{\section}
+  {\Large\bfseries\color{MintDark}}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.28em}\color{MintSoft}\titlerule]
+
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{MintDark}}
+  {}
+  {0pt}
+  {}
+
+\titlespacing*{\section}{0pt}{1.25em}{0.65em}
+\titlespacing*{\subsection}{0pt}{0.7em}{0.2em}
+
+\newcommand{\nameheader}[1]{%
+  {\fontsize{23}{26}\selectfont\bfseries\color{MintDark} #1}\par
+}
+
+\newcommand{\iconhref}[3]{%
+  \textcolor{MintMain}{#1}\,\href{#2}{#3}%
+}
+
+\newcommand{\contactline}[1]{%
+  {\small\color{SlateMuted} #1}\par
+}
+
+\newcommand{\headerdivider}{%
+  \vspace{0.7em}
+  {\color{MintSoft}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.9em}
+}
+
+\newcommand{\entryheader}[4]{%
+  \vspace{0.6em}
+  \textbf{#1} \hfill \textbf{#2}\\
+  \textit{#3} \hfill \textit{#4}\\[-0.35em]
+}
+
+\newcommand{\letterclosing}[2][]{%
+  \vspace{1.2em}
+  Mit freundlichen Grüssen\\[0.8em]
+  \IfFileExists{#1}{\includegraphics[height=1.7cm]{#1}\\[-0.15em]}{\vspace{1.5cm}\\}
+  #2
+}
+
+\AtBeginEnvironment{quote}{\color{SlateMuted}}
