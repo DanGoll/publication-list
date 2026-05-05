@@ -33,14 +33,14 @@ Daniel Goller, Ph.D. \enspace \enspace $\cdot$ \enspace \enspace
 
 \begin{itemize}
 \item ``Gender differences in beliefs about productivity-relevant skills'', with E.\ Brox and S.C.\ Wolter
-\item ``Imperfect Self-knowledge about Skills and Skill Mismatch'', with E.\ Brox and S.C.\ Wolter
-\item ``Mismatch: Measurement and Consequences''
-\item ``Reaching for the stars from the top of the ladder? Rank, gender, and future aspirations''
+\item ``Which Skills Matter Most for Early Labor Market Success?'', with R.\ Sartore
+\item ``Skills Mismatch: Measurement and Consequences''
 \end{itemize}
 
 ## Working Papers
 
 \begin{itemize}
+\item Goller, Daniel, Enzo Brox, and Stefan C.\ Wolter (2026) ``Imperfect Self-knowledge about Skills and Skill Mismatch.'' \textit{Swiss Leading House Working Paper}, No.\ 253. 
 \item Späth, Maximilian, and Daniel Goller (2023). ``Gender differences in investment reactions to irrelevant information.'' \textit{CEPA Discussion Papers}, No.\ 67. DOI: \href{https://doi.org/10.25932/publishup-60635}{10.25932/publishup-60635}.
 \end{itemize}
 
@@ -49,7 +49,8 @@ Daniel Goller, Ph.D. \enspace \enspace $\cdot$ \enspace \enspace
 ## 2026
 
 \begin{itemize}
-\item Brox, Enzo, and Daniel Goller (forthcoming). ``Tournaments, Contestant Heterogeneity and Performance.'' \textit{Journal of Political Economy: Microeconomics}. DOI: \href{https://doi.org/10.1086/735786}{10.1086/735786}.
+\item Brox, Enzo, and Daniel Goller (2026). ``Tournaments, Contestant Heterogeneity and Performance.'' \textit{Journal of Political Economy: Microeconomics}, 4 (2), 583--619. DOI: \href{https://doi.org/10.1086/735786}{10.1086/735786}.
+\item Goller, Daniel (2026). ``Reaching for the stars from the top of the ladder? Rank, gender, and future aspirations'' \textit{Economics Letters}, 265, 113015. DOI: \href{https://doi.org/10.1016/j.econlet.2026.113015}{10.1016/j.econlet.2026.113015}.
 \end{itemize}
 
 ## 2025
